@@ -1,0 +1,50 @@
+.pagination > li > a,
+.pagination > li > span {
+    color: black;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover,
+.page-item.active .page-link {
+    background-color: gray;
+    border-color: gray;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d8a;
+}
+
+.page-link:hover {
+    color: #6c757d8a;
+    text-decoration: none;
+}
+
+.btn-outline-secondary{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.mt-5 {
+    padding-left: 8px;
+}
+
+.list-group-item,
+.list-group-item:last-child{
+    margin-bottom: 20px;
+}
+
+.cleaner {
+    clear: both;
+    width: 100%;
+    height: 10px;
+    font-size: 0;
+}
+
+.dropdown {
+    margin-left: 10px;
+}
